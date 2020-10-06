@@ -263,6 +263,10 @@ width: 90%;
 	width: 100px;
 	background-color: #009688;
 }
+#mat{
+	padding-right: 10px;
+	padding-left: 10px;
+}
 .optioncards{
 	display: inline-block;
 }
@@ -310,6 +314,9 @@ width: 90%;
 	}
 	.card{
 		min-width: 90%
+	}
+	.accordion{
+		transform: scale(3);
 	}
 
 }
