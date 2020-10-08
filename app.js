@@ -1,3 +1,91 @@
+const biocdsske = [
+	{
+		q:'Which of the following is not a connective tissue? ',
+		options:[' Adipose Tissue ',' Cardiac Muscle ',' Compact Bone ',' Areolar Tissue '],
+		answer:1
+		},
+		{
+		q:'The name of the longest muscle in human body is ',
+		options:[' Sartorius muscle ',' Stapedius muscle ',' Masseter muscle ',' Gluteus Maximus muscle '],
+		answer:0
+		},
+		{
+		q:'Two Bones are connected to each other by connective tissue called as ',
+		options:[' Tendon ',' Neuron ',' Ligament ',' Adipose '],
+		answer:2
+		},
+		{
+		q:'Muscles are connected to bones by connective tissue called as ',
+		options:[' Tendon ',' Neuron ',' Ligament ',' Adipose '],
+		answer:0
+		},
+		{
+		q:'Which of the following have maximum no. of ribs ',
+		options:[' Crocodile ',' Ray fish ',' Snake ',' Flying Mammals'],
+		answer:2
+		},
+		{
+		q:'In which of following muscular organism do not have Exo-Skeleton ',
+		options:[' Amphibians ',' Ayes ',' Mammalia ',' Chondrichthyes '],
+		answer:0
+		},
+		{
+		q:'Bones are pneumatic in ',
+		options:[' Fishes ',' Reptiles ',' Amphibians ',' Birds '],
+		answer:3
+		},
+		{
+		q:'How many no of skeletal muscle found in our body? ',
+		options:[' 206 ',' 500 ',' 200 ',' 700 '],
+		answer:3
+		},
+		{
+		q:' Which are contractile protein in any muscle  ',
+		options:[' Actin and Myosin ',' Actin and Tropomyosin',' Myosin and Troponin ',' Troponin and Tropomyosm'],
+		answer:0
+		},
+		{
+		q:' How many pairs of ribs are there in human body? ',
+		options:[' 12 ',' 11 ',' 13 ',' 14 '],
+		answer:0
+		},
+		{
+		q:' In human body, cartilage is found in ',
+		options:[' Tongue ',' Chin ',' Nose ',' Nail '],
+		answer:2
+		},
+		{
+		q:' Which one of the following chemicals is associated wit muscle fatigue? ',
+		options:[' Uric acid ',' Pyruvic acid ',' Acetic acid ',' Lactic acid'],
+		answer:3
+		},
+		{
+		q:' Which of the following is an example of Ball and Socket joint in humans? ',
+		options:[' Wrist Joint ',' Finger Joint ',' Hip Joint ',' Neck Joint '],
+		answer:2
+		},
+		{
+		q:' In human skeletal Examination is generally done for ',
+		options:[' Brain Power ',' Internal age ',' Internal height ',' Destensis '],
+		answer:1
+		},
+		{
+		q:' Which of the following is used for wrapping of fractured bones? ',
+		options:[' White cement ',' Zinc oxide ',' White lead ',' Plaster of Paris '],
+		answer:1
+		},
+		{
+		q:' which is the weakest muscle found in human body?',
+		options:[' cilliary',' Glueteus',' Stapedious',' None of the above'],
+		answer:0
+		},
+		
+]
+
+
+
+
+
 const timeworkaf = [
 {
 q:'A does  as much work as B can do and C does  as much work as A and B Together. If C can finish the work in 40 days, then together they can finish the work in (AFCAT II 2015)',
@@ -1506,6 +1594,14 @@ else if(name==='wordanalogyaf'){
 	const pushele=wordanalogyaf.length;
 	for(let i=0;i<wordanalogyaf.length;i++){
 		temparr.push(wordanalogyaf[i])
+	}
+	localStorage.setItem('temparr',JSON.stringify(temparr));
+}
+else if(name==='biocdsske'){
+	console.log("biocdsske");
+	const pushele=biocdsske.length;
+	for(let i=0;i<biocdsske.length;i++){
+		temparr.push(biocdsske[i])
 	}
 	localStorage.setItem('temparr',JSON.stringify(temparr));
 }
