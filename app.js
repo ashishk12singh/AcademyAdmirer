@@ -102,7 +102,7 @@ const engpfffif = [
 		{
 		q:' Synonym         DEPLORE ',
 		options:[' lose heart',' entreat ',' regret ',' malign '],
-		answer:3
+		answer:2
 		},
 		{
 		q:' Synonym         MOTIVATION ',
@@ -112,17 +112,17 @@ const engpfffif = [
 		{
 		q:' Synonym          RESIDUE ',
 		options:[' remainder ',' nothing ',' recede ',' little '],
-		answer:1
+		answer:0
 		},
 		{
 		q:' Synonym          PERPETUAL ',
 		options:[' perfect ',' confused ',' never ending ',' seasonal '],
-		answer:0
+		answer:2
 		},
 		{
 		q:' Synonym          ASSENT',
 		options:[' climb',' confirm',' answer',' agree'],
-		answer:1
+		answer:3
 		},
 		{
 		q:' Synonym          DEFIANCE',
@@ -132,7 +132,7 @@ const engpfffif = [
 		{
 		q:' Synonym          EMANCIPATE',
 		options:[' liberate',' release',' acquit',' unchain'],
-		answer:2
+		answer:0
 		},
 		{
 		q:' Synonym          HOSTILITY',
@@ -142,17 +142,17 @@ const engpfffif = [
 		{
 		q:' Antonym          FORBID',
 		options:[' forgive',' allow',' refuse',' deprive'],
-		answer:3
+		answer:1
 		},
 		{
 		q:' Antonym          AMBIGUOUS',
 		options:[' definite',' constant',' shapeless',' determined'],
-		answer:1
+		answer:0
 		},
 		{
 		q:' Antonym          COUNTERFEIT',
 		options:[' destructive',' genume',' affirm',' harmonize'],
-		answer:3
+		answer:1
 		},
 		{
 		q:' Antonym          FUSION',
@@ -162,17 +162,17 @@ const engpfffif = [
 		{
 		q:' Antonym          ESCALATE',
 		options:[' bring down',' isolate',' slope down',' reject'],
-		answer:2
+		answer:0
 		},
 		{
 		q:' Antonym          TERMINATE',
 		options:[' imitate',' interrupt',' initiate',' examme'],
-		answer:1
+		answer:2
 		},
 		{
 		q:' Antonym          GRAVITATE',
 		options:[' meditate',' become serious',' deteriorate',' retreat'],
-		answer:0
+		answer:3
 		},
 		
 ]
