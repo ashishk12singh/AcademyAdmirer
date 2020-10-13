@@ -107,7 +107,7 @@ const engpfffif = [
 		{
 		q:' Synonym         MOTIVATION ',
 		options:[' inducement ',' emotion ',' ambition ',' incitement '],
-		answer:2
+		answer:0
 		},
 		{
 		q:' Synonym          RESIDUE ',
