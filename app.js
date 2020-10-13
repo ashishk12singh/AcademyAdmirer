@@ -137,7 +137,7 @@ const engpfffif = [
 		{
 		q:' Synonym          HOSTILITY',
 		options:[' hospitality',' jealousy',' enmity',' envy '],
-		answer:1
+		answer:2
 		},
 		{
 		q:' Antonym          FORBID',
