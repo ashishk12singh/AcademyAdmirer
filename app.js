@@ -1,3 +1,189 @@
+const engpfffif = [
+	{
+		q:'Spotting the error:- ',
+		options:[' The reason for ',' his failure is because ',' he did not work hard.',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' Food as well as water ',' is necessary ','for life.',' No Imporvement'],
+		answer:3
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' India is larger than ',' any democracies ',' in the world.',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' The judge heard the arguments ',' of the lawyers and found ',' that the boy was innocent.',' No Imporvement'],
+		answer:3
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' I have lived ',' in delhi ',' from 1965.',' No Imporvement'],
+		answer:2
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' All scientists agree ',' that there should be ',' a total ban on nuclear explosions.',' No Imporvement'],
+		answer:3
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' Such books ',' which you read ',' are not worth reading.',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' Tagore was ',' one of the greatest poet ',' that ever lived.',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' You may please ',' apply for an advance salary ',' to cover costs of transport.',' No Imporvement'],
+		answer:2
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' The taxi that will take the family to Haridwar',' had to be ready',' at 6:00 the next morning',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' Employees are expected to ',' adhere the rules ',' laid down by the management',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' The Owner of the horse ',' greedily ask',' too high a price',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' I convinced ',' him to ',' see the play',' No Imporvement'],
+		answer:3
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' Some man ',' are born ',' great',' No Imporvement'],
+		answer:0
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' We Must sympathise',' for others',' in their troubles',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' My detailed statement',' is respectively ',' submitted',' No Imporvement'],
+		answer:1
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' I am waiting ',' for my friend ',' since this morning',' No Imporvement'],
+		answer:0
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' He is representing',' my constituency',' for the last 5 years',' No Imporvement'],
+		answer:0
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' If he hears ',' of your conduct ',' he is to be unhappy',' No Imporvement'],
+		answer:2
+		},
+		{
+		q:'Spotting the error:-',
+		options:[' No Sooner he appeared ',' on the stage than the people ',' began to cheer loudly',' No Imporvement'],
+		answer:0
+		},
+		{
+		q:' Synonym         DEPLORE ',
+		options:[' lose heart',' entreat ',' regret ',' malign '],
+		answer:3
+		},
+		{
+		q:' Synonym         MOTIVATION ',
+		options:[' inducement ',' emotion ',' ambition ',' incitement '],
+		answer:2
+		},
+		{
+		q:' Synonym          RESIDUE ',
+		options:[' remainder ',' nothing ',' recede ',' little '],
+		answer:1
+		},
+		{
+		q:' Synonym          PERPETUAL ',
+		options:[' perfect ',' confused ',' never ending ',' seasonal '],
+		answer:0
+		},
+		{
+		q:' Synonym          ASSENT',
+		options:[' climb',' confirm',' answer',' agree'],
+		answer:1
+		},
+		{
+		q:' Synonym          DEFIANCE',
+		options:[' insult',' denial',' degradation',' resistance'],
+		answer:3
+		},
+		{
+		q:' Synonym          EMANCIPATE',
+		options:[' liberate',' release',' acquit',' unchain'],
+		answer:2
+		},
+		{
+		q:' Synonym          HOSTILITY',
+		options:[' hospitality',' jealousy',' enmity',' envy '],
+		answer:1
+		},
+		{
+		q:' Antonym          FORBID',
+		options:[' forgive',' allow',' refuse',' deprive'],
+		answer:3
+		},
+		{
+		q:' Antonym          AMBIGUOUS',
+		options:[' definite',' constant',' shapeless',' determined'],
+		answer:1
+		},
+		{
+		q:' Antonym          COUNTERFEIT',
+		options:[' destructive',' genume',' affirm',' harmonize'],
+		answer:3
+		},
+		{
+		q:' Antonym          FUSION',
+		options:[' melting',' fixture',' amendment',' separation '],
+		answer:3
+		},
+		{
+		q:' Antonym          ESCALATE',
+		options:[' bring down',' isolate',' slope down',' reject'],
+		answer:2
+		},
+		{
+		q:' Antonym          TERMINATE',
+		options:[' imitate',' interrupt',' initiate',' examme'],
+		answer:1
+		},
+		{
+		q:' Antonym          GRAVITATE',
+		options:[' meditate',' become serious',' deteriorate',' retreat'],
+		answer:0
+		},
+		
+]
+
+
+
+
+
+
+
+
 const biocdsske = [
 	{
 		q:'Which of the following is not a connective tissue? ',
@@ -1602,6 +1788,14 @@ else if(name==='biocdsske'){
 	const pushele=biocdsske.length;
 	for(let i=0;i<biocdsske.length;i++){
 		temparr.push(biocdsske[i])
+	}
+	localStorage.setItem('temparr',JSON.stringify(temparr));
+}
+else if(name==='engpfffif'){
+	console.log("engpfffif");
+	const pushele=engpfffif.length;
+	for(let i=0;i<engpfffif.length;i++){
+		temparr.push(engpfffif[i])
 	}
 	localStorage.setItem('temparr',JSON.stringify(temparr));
 }
