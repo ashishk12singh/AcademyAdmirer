@@ -1,4 +1,4 @@
-const enfpsffif = [
+const engpsffif = [
 	{
 		q:' WORD SUBSTITUTION(Replace the phrase in **)    Moralists are usually *persons who abstain from alcoholic drink*. ',
 		options:[' teetotalle ',' ascetic ',' pedants ',' celibates'],
