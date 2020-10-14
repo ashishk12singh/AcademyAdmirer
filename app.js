@@ -1,3 +1,166 @@
+const enfpsffif = [
+	{
+		q:' WORD SUBSTITUTION(Replace the phrase in **)    Moralists are usually *persons who abstain from alcoholic drink*. ',
+		options:[' teetotalle ',' ascetic ',' pedants ',' celibates'],
+		answer:0
+		},
+		{
+		q:' WORD SUBSTITUTION(Replace the phrase in **)    The chairman is quick to find fault and *is hard to please* ',
+		options:[' frivolous ',' facetious ',' fastidious ',' ferocious '],
+		answer:2
+		},
+		{
+		q:' WORD SUBSTITUTION(Replace the phrase in **)    Scriptural injunctions should not be *opposed or treated with contempt*. ',
+		options:[' flouted ',' flounced ',' floundered ',' flaunted '],
+		answer:0
+		},
+		{
+		q:' WORD SUBSTITUTION(Replace the phrase in **)    *A fortress on a commanding height for defense of a city* is called ',
+		options:[' citadel ',' metropolis ',' megapolis ',' headquarters '],
+		answer:0
+		},
+		{
+		q:' WORD SUBSTITUTION(Replace the phrase in **)    *Nostalgia* is . ',
+		options:[' anxiety about future ',' feeling of insecurity ',' longing for a period in the past ',' an allergy to Certain foods '],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      We need honest workers, not people of *redoubtable* integrity. ',
+		options:[' doubting ',' doubtful ',' doubtless ',' No improvement'],
+		answer:1
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      I expect every player here to be conversant *at* the rules of game.  ',
+		options:[' on ',' about ',' with ',' No improvement'],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      There is no *alternate*, so we must leave now. ',
+		options:[' altering ',' alternative ',' alternation ',' No improvement '],
+		answer:1
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      If I *were* you, I would do it at once. ',
+		options:[' was ',' am ',' would be ',' No improvement '],
+		answer:3
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      They set a strong guard, lest any one *could* escape. ',
+		options:[' would ',' might ',' should ',' No improvement'],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      The matter called *up* an explanation of his conduct. ',
+		options:[' our ',' in ',' for ',' No improvement'],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      The accused *refused* having murdered anybody. ',
+		options:[' disagreed ',' denied ',' declaimed ',' No improvement '],
+		answer:1
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      We cannot trust a man who plays *false and loose* with others. ',
+		options:[' false or loose ',' fast or loose  ',' fast and loose ',' No improvement '],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      He is still in vigorous health although he is on *right* side of sixty. ',
+		options:[' wrong ',' ear ',' negative ',' No improvement '],
+		answer:0
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      *Any* English are known for their practical instincts. ',
+		options:[' Some ',' Many ',' The ',' No improvement'],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      Fifty miles *are* a long distance to walk. ',
+		options:[' is ',' become ',' be ',' No improvement '],
+		answer:0
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      Economics today *were* not what it was a century ago. ',
+		options:[' are ',' was ',' is ',' No improvement'],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      Hearing the news of the accident, he *broke*. ',
+		options:[' broke down ',' broke up ',' broke out ',' No improvement '],
+		answer:0
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      The speaker asked the audience to bear *upon* him for a few minutes more. ',
+		options:[' on ',' with ',' for ',' No improvement '],
+		answer:1
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      *Those men* as are false to their friends should be avoided. ',
+		options:[' The men ',' Men ',' Such men ',' No improvement '],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      Many people find it difficult to make both *hands meet*. ',
+		options:[' both accounts ',' both hands to mouth  ',' both ends meet ',' No improvement  '],
+		answer:2
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      Young children are not physically capable *to carry these loads*. ',
+		options:[' have to carry these loads ',' of carrying these loads ',' carry these loads ',' No improvement '],
+		answer:1
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      I enjoyed the ballet by a *troupe* of Russian dancers. ',
+		options:[' troop ',' trouper  ',' trooper',' No improvement '],
+		answer:3
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      The secretary threatened to resign *his post*. ',
+		options:[' from his post ',' to his post ',' for his post ',' No improvement '],
+		answer:0
+		},
+		{
+		q:' Sentence Improvement. (Replace the word in **)      By the time *he arrived*, everybody had gone home. ',
+		options:[' when he arrived ',' at which he arrived ',' by which he arrive ',' No improvement '],
+		answer:3
+		},
+		{
+		q:' When the car passed by /(p)he threw a stone/ (q)raising dust in the road /(R)with all his might /(S)and hit the man who was driving it. The proper sequence should be :',
+		options:[' P Q R S',' Q P R S',' R P Q S',' R P S Q'],
+		answer:1
+		},
+		{
+		q:' A moment comes /(p)when we step out from the old to the new /(Q) which comes but rarely in history /(R)and when the soul of a nation /(S) long suppressed, finds utterance. The proper sequence should be :',
+		options:[' Q P R S',' P R S Q',' Q R S P',' R S Q P'],
+		answer:0
+		},
+		{
+		q:' She had a blind belief that inside the bag /(P)two or three other children /(Q)there were perhaps /(R)which the big man carried /(S)like herself. The proper sequence should be :',
+		options:[' Q R P S',' Q P S R',' R Q S P',' R Q P S'],
+		answer:3
+		},
+		{
+		q:' He approached the teacher /(P)at school /(Q)to know /(R)in his studies /(S)how his son was getting on. The proper sequence should be :',
+		options:[' P Q R S',' P Q S R',' Q S R P',' Q S P R'],
+		answer:2
+		},
+		{
+		q:' I was so angry that /(P)if I had met him in the street /(Q)and not waited to ask him /(R) why he had written me an insulting letter /(S) I would have knocked him down. The proper sequence should be :',
+		options:[' P S Q R',' P Q R S',' S Q R P',' R S Q P'],
+		answer:0
+		},
+		{
+		q:' On the contrary, /(P) about family planning and its benefits /(Q) to all citizens /(R) the Government wants /(S)to provide information and education. The proper sequence should be:',
+		options:[' R Q S P',' S P Q R',' R S P Q',' Q P R S'],
+		answer:2
+		},
+	
+		
+]
+
+
+
+
 const engpfffif = [
 	{
 		q:'Spotting the error:- ',
@@ -1796,6 +1959,14 @@ else if(name==='engpfffif'){
 	const pushele=engpfffif.length;
 	for(let i=0;i<engpfffif.length;i++){
 		temparr.push(engpfffif[i])
+	}
+	localStorage.setItem('temparr',JSON.stringify(temparr));
+}
+else if(name==='engpsffif'){
+	console.log("engpsffif");
+	const pushele=engpsffif.length;
+	for(let i=0;i<engpsffif.length;i++){
+		temparr.push(engpsffif[i])
 	}
 	localStorage.setItem('temparr',JSON.stringify(temparr));
 }
