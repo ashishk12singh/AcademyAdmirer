@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WAT</title>
+	<<title>WAT</title>
 	<script data-ad-client="ca-pub-2396183658537412" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="app.js"></script>
-	<script type="text/javascript" src="Watcontent.js"></script>
 </head>
 <body>
 	<div class="fixed-top">
@@ -28,18 +26,26 @@
 	    </button>
 	  </nav>
 	</div>
-	<div class="motivationpic">
-		<br><br><br>
-		<div class="listofquiz">
-			<ul>WAT test 1<a href="Wat1quiz.html"><button class="btn btn-success" id="Wat1">Begin</button></a></ul>
-		<div class="listofquiz">
-			<ul>WAT test 2<a href="Wat2quiz.html"><button class="btn btn-success" id="Wat2">Begin</button></a></ul>	
+<main>	
+	<div class="watword">
+		<span id="changeword"> </span>
 	</div>
-	</div>
-	</div>
+</main>	
+<script>
+	function fun(arr, delay) {
+  var i=0;
+  return function printer() {
+    if (i < arr.length) {
+      document.getElementById("changeword").innerHTML=arr[i++];
+      setTimeout(printer, delay);
+    }
+  }
+}
+var f = fun(["The Test Is about to Begin, Keep focused on Screen","1 Idea","2 Books","3 Future","4 Music","5 Property","6 Error","7 Work","8 Justice","9 Charity","10 History","11 Kindness","12 Self Control","13 Faith","14 Life","15 Word","16 Happiness","17 Educate","18 Soul","19 Business","20 Medicine","21 Exercise","22 Poetry","23 Intelligence","24 Old","25 Patriotism","26 Criticism","27 Worry","28 Past","29 Tear","30 Friendship","You May Turn Your Page","31 World","32 Chance","33 Mother","34 Heart","35 Power","36 Family","37 Wealth","38 Philosophy","39 Greatness","40 Honour","41 Spirit","42 Attack","43 Persuade","44 Religion","45 Truth","46 Compromise","47 Quick","48 Climb","49 Lonley","50 Guide","51 Persuade","52 Merit","53 Admire","54 Carelessness","55 Hope","56 Efficiency","57 Danger","58 Complete","59 Competition","60 Policy","Test Has Ended"],15000);
+f();
+</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
