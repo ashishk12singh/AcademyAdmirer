@@ -1509,7 +1509,7 @@ else if(name==='wordanalogyaf'){
 	}
 	localStorage.setItem('temparr',JSON.stringify(temparr));
 }
-window.open('https://brave-carson-4e2ea5.netlify.app/quiz1.html','_self','fullscreen=yes');
+window.open('https://modest-goodall-e0b023.netlify.app//quiz1.html','_self','fullscreen=yes');
 }
 //push the questions into available questions array
 function setAvailableQuestions(){
